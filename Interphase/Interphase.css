@@ -1,0 +1,251 @@
+html,body,.header
+{
+    margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%; 
+    line-height: 25px;
+    overflow-x: hidden;
+    }
+#header
+{
+    height: 670px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    background: url(images/banner.jpg) no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(0,0,0,0.5);
+}
+#header header
+{
+    position: relative;
+    top: 0;
+    height: 10%;
+    width: 94%;
+    max-width: 94%;
+    margin-left: 3%;
+    background-color: transparent;
+     vertical-align: middle;
+    color:snow;
+}
+#header header p
+{
+    text-align: left;
+    font-size: 150%;
+    font-weight: 100;
+}
+#header header pre
+{
+    text-align: right;
+    opacity: 0.6;
+    font-size: 110%;
+    position: relative;
+    top: -60%;
+}
+#header span
+{
+    color: snow;
+    position: relative;
+    top: 140px;
+    
+}
+#header span h3
+{
+    font-size: 250%;
+    font-weight: 100;
+}
+#header span p
+{
+    font-size: 150%;
+    font-weight: 100;
+}
+#header span button
+{
+    border-color: snow;
+    background-color: transparent;
+    color: snow;
+    width: 14%;
+    height: 60px;
+}
+#header span button:hover
+{
+    background-color: rgba(255,255,255,0.2);
+}
+.med
+{
+padding-top: 2%;
+    background-color: #3ba666;
+    background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+    width: 100%;
+    height: 550px;
+    color: snow;
+}
+.med header pre
+{
+  font-size: 200%;
+    font-weight: 100;
+    margin-top: 6%;
+}
+.med header p
+{
+    font-size: 150%;
+    font-weight: 100;
+}
+.icon
+{
+height: 354px;
+    width: 100%;
+   
+    margin-left: 5%;
+    margin-top: 2%;    
+   
+}
+.icon span
+{
+     display: inline-block;
+    height: 100px;
+    width: 23%;
+    word-wrap: break-word;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-size: 110%;
+    
+}
+.icon img
+{
+    width: 20%;
+    height: 20%;
+    border: solid 1px snow;
+    border-radius: 50%; 
+    padding: 12%;
+}
+.last
+{
+    width: 100%;
+    height: 2180px;
+    overflow: hidden;
+}
+.last header
+{
+    width: 90%;
+    height: 15%;
+    color: #666;  
+    margin-top: 9%;
+        border-bottom: medium double rgba(144, 144, 144, 0.25);
+    margin-left: 5%;
+}
+.last header h2
+{
+   font-size: 220%; 
+    font-weight: 100;
+}
+.last header p
+{
+     font-size: 120%; 
+    font-weight: 100;
+}
+.last div
+{  
+    margin-top: 5%;
+}
+.last div article
+{
+    display: inline-block;
+   width: 40%;
+    height: 450px;
+    color: rgba(144, 144, 144, 1);
+    margin-left: 5.5%;
+    word-wrap: break-word;
+    
+}
+.last div article h2
+{
+    height: 50px;
+    margin-bottom: 4%;
+    border-bottom: medium double rgba(144, 144, 144, 0.25);
+    font-weight: 100;
+}
+.last button
+{
+    border-color: rgba(0,0,0,0.1);
+    background-color: transparent;
+    color: rgba(0,0,0,0.6);
+    width: 15%;
+    height: 64px;
+    font-size: 110%;
+    margin-bottom: 5%;
+    
+}
+.last button:hover
+{
+    background-color:  rgba(0,0,0,0.1);;
+}
+footer
+{
+    background: #202222;
+    height: 641px;
+}
+footer section
+{
+    display: inline-block;
+    width: 25%;
+    word-wrap: break-word;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+footer section img 
+{
+ border: solid 1px snow;
+    border-radius: 50%; 
+    padding: 3%;
+    width: 7%;
+    height: 7%;
+    margin-right: 2%;
+    opacity: 0.5;
+}
+footer section img:hover
+{opacity: 1;}
+footer a
+{
+     color: #888;
+}
+footer p
+{ color: #888;}
+footer h2{color: snow;}
+footer a p
+{border-bottom:  solid 1px #888;
+ height: 40px;}
+.lasta p
+{
+    border: none;
+}
+.contact p
+{
+    border-bottom:  solid 1px #888;
+ height: 40px;
+}
+.h1,.h2
+{
+    display: inline;
+}
+footer footer
+{
+    width: 100%;
+    height: 10%;
+   
+}
+footer footer p
+{ display: inline-block;
+margin-left: 2%;
+    margin-top: 4%; 
+}
+.bord
+{
+    border-right:  solid 1px #888;
+    width: 16%;
+}
+
